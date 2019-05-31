@@ -1,0 +1,54 @@
+// CSS GOODIES BELOW!
+
+body {
+  margin: 2vw;
+  font-size: 2vw;
+  font-family: helvetica;
+}
+
+// check out the transition property!
+input[type="text"] {
+  padding: 1vw;
+  font-size: 2vw;
+  border: solid 1px #000;
+  border-radius: 3px;
+  transition: 350ms all;
+}
+
+// check out what happens on focus
+// of the text input
+input[type="text"]:focus {
+  background: #444;
+  color: #fff;
+}
+
+// notice the transition on the button too!
+button {
+  margin-left: 1vw;
+  padding: 1vw 3vw;
+  border: none;
+  border-radius: 3px;
+  font-size: 2vw;
+  background: #000;
+  color: #fff;
+  transition: 350ms all;
+  cursor: pointer;
+}
+
+button:hover {
+  background: green;
+}
+
+li {
+  margin-top: 2.5vw;
+  padding: 1vw;
+  border-radius: 3px;
+  background: #888;
+  color: #fff;
+  cursor: pointer;
+  transition: 350ms all;
+}
+
+li:hover {
+  background: red;
+}
