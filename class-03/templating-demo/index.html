@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Handlebars Demo</title>
+        <script id="neighborhood-template" type="text/x-handlebars-template">
+            <div>
+                <h2>{{ name }}</h2>
+                <p>Belongs to: {{ city }}</p>
+                <p>Current population: {{ population }}</p>
+                <p>Founded on: {{ founded }}</p>
+                {{{ body }}}
+            </div>
+        </script>
+    </head>
+    <body>
+        <h1>neighborhood stats:</h1>
+
+        <main>
+            <section id="neighborhoods"></section>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+        <script src="scripts/dataSet.js"></script>
+        <script src="scripts/neighborhood.js"></script>
+    </body>
+</html>
